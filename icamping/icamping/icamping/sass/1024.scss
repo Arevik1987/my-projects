@@ -1,0 +1,160 @@
+
+@media only screen and (max-width: 992px) {
+
+  header #header-content .header-menu {
+    /*display: none;*/
+  }
+
+  .nav-icon {
+    display: block!important;
+  }
+
+  header #header-content .header-menu {
+    display: block;
+    position: absolute;
+    left: 30px;
+    top: 100px;
+    margin-top: 40px;
+  }
+
+  header {
+    position: absolute;
+    height: 100px;
+    overflow: hidden;
+    transition: 0.5s;
+    width: 100%;
+    z-index: 22;
+    top: 0;
+    background: #fff;
+    &.menu-open{
+      height: 500px;
+      transition: 0.5s;
+    }
+  }
+
+  header #header-content .header-menu ul li {
+    float: none;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  header #header-content h1 {
+    float: none!important;
+    text-align: center;
+  }
+
+  footer .footer-right-block .footer-right-block-inner .footer-right-list {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  footer .footer-right-block .footer-right-block-inner .footer-right-list:first-child {
+    margin-bottom: 15px;
+  }
+
+  footer .footer-right-block p {
+    font-size: 8px;
+  }
+
+  .login-inner {
+    background: #666;
+    top: 128px;
+    width: 100%;
+  }
+
+  .login-inner {
+    background: #efe5db;
+  }
+
+  #national-park-search-block {
+    margin-top: 100px;
+  }
+
+  main #national-park-search-block .national-park-search-list .national-park-search-list-inner {
+    text-align: center;
+  }
+
+  main #national-park-search-block .national-park-search-list .national-park-search-list-inner:before {
+    left: auto!important;
+  }
+
+  main .national-park-page #national-park-inner-page .national-park-inner-right .national-park-inner-right-bottom .national-park-inner-right-bottom-list .left-list,
+  main .national-park-page #national-park-inner-page .national-park-inner-right .national-park-inner-right-bottom .national-park-inner-right-bottom-list .right-list {
+    float: none!important;
+    text-align: center;
+  }
+
+  main .national-park-page #national-park-inner-page .national-park-inner-right .national-park-inner-right-bottom .national-park-inner-right-bottom-list .right-list {
+    width: 100%;
+  }
+
+  main .national-park-page #national-park-inner-page .national-park-inner-right .national-park-inner-right-bottom .national-park-inner-right-bottom-list .right-list .left-list-bottom .left-list {
+    margin-right: 0;
+    padding-left: 0;
+  }
+
+  main .national-park-page #national-park-inner-page .national-park-inner-right .national-park-inner-right-bottom .national-park-inner-right-bottom-list .right-list .left-list-bottom .left-list {
+    padding-left: 30px;
+    display: inline-block;
+  }
+
+  main .national-park-page #national-park-inner-page .national-park-inner-right .national-park-inner-right-bottom .national-park-inner-right-bottom-list .right-list .left-list-bottom ul li,
+  main .national-park-page #national-park-inner-page .national-park-inner-right .national-park-inner-right-bottom .national-park-inner-right-bottom-list .right-list .left-list-bottom ul
+  {
+    float: none!important;
+  }
+
+  main .national-park-page #national-park-inner-page .national-park-inner-right .national-park-inner-right-bottom .national-park-inner-right-bottom-list .right-list .left-list-bottom ul li {
+    margin-right: 0;
+  }
+
+}
+
+@media only screen and (max-width: 767px) {
+  .home-first-block-list {
+    margin-bottom: 30px;
+  }
+
+  #home-second-block a,
+  main #home-third-block a,
+  main #home-fourth-block a
+  {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .footer-left-list {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  footer .footer-left-block .footer-left-list .title,
+  footer .footer-left-block .footer-left-list .txt1,
+  footer .footer-left-block .footer-left-list .txt2,
+  footer .footer-left-block .footer-left-list .txt3
+  {
+    width: auto;
+  }
+
+  footer .footer-left-block {
+    margin-bottom: 30px;
+  }
+
+  .footer-right-block, .footer-right-block-inner {
+    float: none!important;
+  }
+
+  footer .footer-right-block .footer-right-block-inner .footer-right-list:first-child {
+    margin-right: 0;
+  }
+
+  footer .footer-right-block p {
+    font-size: 10px;
+    float: none!important;
+  }
+
+  main .national-park-page #national-park-inner-page .national-park-inner-left .national-park-inner-left-top,
+  main .national-park-page #national-park-inner-page .national-park-inner-left .national-park-inner-left-bottom {
+    text-align: center;
+  }
+}

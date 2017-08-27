@@ -1,0 +1,41 @@
+@media only screen and (max-width: 480px) {
+  main #home-main-pic .home-main-pic-inner .home-main-pic-buttons button {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  main #home-main-pic .home-main-pic-inner .home-main-pic-buttons button:first-child {
+    margin-bottom: 20px;
+  }
+
+  main #home-main-pic .home-main-pic-inner {
+    width: auto;
+  }
+
+  main #home-main-pic .home-main-pic-inner .home-main-pic-buttons {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  main #home-main-pic .home-main-pic-inner .home-main-pic-buttons button:first-child {
+    margin-right: 0;
+  }
+
+  header #header-content h1 a img {
+    width: 50%;
+  }
+
+  .login-inner-list-bottom {
+    text-align: center;
+  }
+
+  .login-inner .login-inner-list form .login-inner-list-bottom a {
+    margin-bottom: 10px;
+    float: none;
+  }
+
+  .login-inner .login-inner-list form .login-inner-list-bottom button {
+    float: none!important;
+    width: 100%;
+  }
+}

@@ -1,0 +1,28 @@
+
+
+@media only screen and (max-width: 1920px) {
+  footer {
+    height: auto;
+  }
+
+  footer .footer-right-block p {
+    font-size: 11px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  main .national-park-page #national-park-inner-page .national-park-inner-right .national-park-inner-right-bottom .national-park-inner-right-bottom-list .right-list {
+    width: 411px;
+  }
+
+  main .national-park-page #national-park-inner-page .national-park-inner-right .national-park-inner-right-bottom .national-park-inner-right-bottom-list .right-list p:first-child {
+    font-size: 14px;
+  }
+
+  main .national-park-page #national-park-inner-page .national-park-inner-right .national-park-inner-right-bottom .national-park-inner-right-bottom-list .right-list p:nth-child(2),
+  main .national-park-page #national-park-inner-page .national-park-inner-right .national-park-inner-right-bottom .national-park-inner-right-bottom-list .right-list p:nth-child(3),
+  main .national-park-page #national-park-inner-page .national-park-inner-right .national-park-inner-right-bottom .national-park-inner-right-bottom-list .right-list .left-list-bottom ul li
+  {
+    font-size: 12px;
+  }
+}

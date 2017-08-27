@@ -1,0 +1,23 @@
+header #header-content .header-menu ul li a:hover {
+  border-color: #caae8c;
+}
+
+.home-first-block-list:hover,
+main #home-second-block a:hover,
+main #home-third-block a:hover,
+main #home-fourth-block a:hover,
+.login-inner .login-inner-list form .login-inner-list-bottom button:hover,
+header #header-content h1 a:hover,
+main #np-detail-absolute-block .np-detail-absolute-block-inner .np-detail-absolute-block-link a:hover
+{
+  opacity: .8;
+}
+
+main #home-main-pic .home-main-pic-inner .home-main-pic-buttons button:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.login-inner .login-inner-list form .login-inner-list-bottom a:hover {
+  color: #666;
+}
